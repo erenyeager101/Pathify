@@ -126,7 +126,7 @@ const Signup = () => {
               onClick={() => navigate("/login")}
               style={{ cursor: "pointer" }}
             >
-              Already on Voyawander ?{" "}
+              Already on Pathify ?{" "}
               <b>
                 <u>Sign in</u>
               </b>

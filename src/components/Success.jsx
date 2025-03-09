@@ -60,7 +60,7 @@ const Success = () => {
                   Payment Successful{" "}
                 </Heading>
                 <Text color={"gray.500"} maxW={"3xl"}>
-                  Thank you for choosing Voyawander! Your payment has been
+                  Thank you for choosing Pathify! Your payment has been
                   received and Your journey begins here, we can't wait to
                   explore the world with you.
                 </Text>

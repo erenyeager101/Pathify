@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='textPart'>
           <Heading>Voyagers</Heading>
           <span>
-            Voyawander is the gateway to new horizons, where each step leads to
+            Pathify is the gateway to new horizons, where each step leads to
             a world of wonder waiting to be explored.
           </span>
         </div>
