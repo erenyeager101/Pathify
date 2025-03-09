@@ -11,7 +11,7 @@ const MotionButton = motion(Button)
 const Home = () => {
   return (
     <Box id="home" position="relative" overflow="hidden" minHeight="100vh">
-      {/* Background gradient overlay */}
+     
       <Box
         position="absolute"
         top="0"
@@ -22,7 +22,6 @@ const Home = () => {
         zIndex="1"
       />
 
-      {/* Image gallery with modern layout */}
       <Flex className="image-gallery" position="absolute" top="0" left="0" right="0" bottom="0" zIndex="0">
         <MotionBox
           initial={{ opacity: 0 }}
@@ -63,7 +62,6 @@ const Home = () => {
         </MotionBox>
       </Flex>
 
-      {/* Content section with modern styling */}
       <Container
         maxW="container.xl"
         height="100vh"

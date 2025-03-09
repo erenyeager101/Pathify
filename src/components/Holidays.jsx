@@ -12,21 +12,28 @@ const Holidays = () => {
   const apiUrl = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
-    // Fetch all places initially
     const fetchPlaceData = () => {
       setLoading(true);
       axios
         .get(`${apiUrl}/places`)
         .then((response) => {
-          setPlacesData(response.data.slice(0, 3));
+          console.log("API Response:", response.data); // Debugging
+          if (Array.isArray(response.data)) {
+            setPlacesData(response.data.slice(0, 3));
+          } else {
+            console.error("Error: Expected an array but got", typeof response.data);
+            setPlacesData([]); // Prevent .map() error
+          }
         })
         .catch((error) => {
           console.error("Error fetching data:", error);
         })
-        .finally(setLoading(false));
+        .finally(() => setLoading(false)); // Ensure loading state is updated
     };
+  
     fetchPlaceData();
   }, [apiUrl]);
+  
 
   const handleBook = (place) => {
     const userData = JSON.stringify(place);
@@ -53,7 +60,7 @@ const Holidays = () => {
         {loading ? (
           <Loader />
         ) : (
-          placesData.map((place) => (
+          Array.isArray(placesData) ? placesData.map((place) => (
             <div className="box" key={place.placeName}>
               <div className="holidayImage">
                 <img src={place.imageURL} alt={place.placeName} />
@@ -77,7 +84,7 @@ const Holidays = () => {
                 </div>
               </div>
             </div>
-          ))
+          )) : null
         )}
       </div>
     </div>
