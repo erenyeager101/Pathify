@@ -1,6 +1,6 @@
-# Travel-Booking-Website (Voyawander)
+# Travel-Booking-Website (Pathify)
 
-Welcome to Voyawander, your ultimate travel companion! Voyawander is a full-stack project built to help you plan your dream trips. With a stunning frontend deployed on Vercel and a robust backend deployed on Cyclic, Voyawander brings together React.js, Chakra UI, MongoDB, Express.js, and Node.js to create a seamless travel planning experience. The database is hosted on MongoDB Atlas, ensuring secure and efficient data storage. This project offers a wide range of features, including searching, sorting, debouncing, local storage, authentication, and various pages for planning your trips.
+Welcome to Pathify, your ultimate travel companion! Pathify is a full-stack project built to help you plan your dream trips. With a stunning frontend deployed on Vercel and a robust backend deployed on Cyclic, Pathify brings together React.js, Chakra UI, MongoDB, Express.js, and Node.js to create a seamless travel planning experience. The database is hosted on MongoDB Atlas, ensuring secure and efficient data storage. This project offers a wide range of features, including searching, sorting, debouncing, local storage, authentication, and various pages for planning your trips.
 
 ## Table of Contents
 - [Features](#features)
@@ -12,7 +12,7 @@ Welcome to Voyawander, your ultimate travel companion! Voyawander is a full-stac
 ## Features
 
 ### Responsive Design
-- **Fully Responsive**: Voyawander is designed to be fully responsive, ensuring that it looks and works seamlessly on a variety of devices, including smartphones, tablets, and desktops. The layout and content adapt dynamically to different screen sizes, providing an optimal user experience regardless of the device used.
+- **Fully Responsive**: Pathify is designed to be fully responsive, ensuring that it looks and works seamlessly on a variety of devices, including smartphones, tablets, and desktops. The layout and content adapt dynamically to different screen sizes, providing an optimal user experience regardless of the device used.
 
 This addition emphasizes that the website is accessible and user-friendly on all devices, making it even more appealing to a wider audience.
 
@@ -24,7 +24,7 @@ This addition emphasizes that the website is accessible and user-friendly on all
 - **Efficient Debouncing**: The search functionality is debounced to ensure smooth performance, providing real-time results without overloading the server.
 
 ### Local Storage
-- **Local Storage**: Voyawander uses local storage to save your preferences and booking information, so you can pick up where you left off.
+- **Local Storage**: Pathify uses local storage to save your preferences and booking information, so you can pick up where you left off.
 
 ### Authentication
 - **User Authentication**: Secure user accounts allow for personalized experiences, including the ability to save favorite destinations and access booking history.
@@ -40,7 +40,7 @@ This addition emphasizes that the website is accessible and user-friendly on all
 
 ### Tech Stack
 
-Voyawander is built using the following technologies:
+Pathify is built using the following technologies:
 
 - **React.js**: The core frontend library for building dynamic user interfaces.
 - **Chakra UI**: A flexible and accessible design system for creating beautiful user interfaces.
@@ -50,9 +50,9 @@ Voyawander is built using the following technologies:
 
 ## Deployment
 
-- **Frontend**: The frontend is deployed on [Vercel](https://dc-voyawander.vercel.app/) and can be accessed [here](https://dc-voyawander.vercel.app/).
+- **Frontend**: The frontend is deployed on [Vercel](https://Pathify.vercel.app/) and can be accessed [here](https://Pathify.vercel.app/).
 
-- **Backend**: The backend is deployed on [Cyclic](https://lime-precious-llama.cyclic.app) and serves as the backbone for the Voyawander application.
+- **Backend**: The backend is deployed on [Cyclic](https://lime-precious-llama.cyclic.app) and serves as the backbone for the Pathify application.
 
 - **Database**: The database is hosted on MongoDB Atlas, ensuring data reliability and security.
 
@@ -78,4 +78,4 @@ To run this project locally or contribute to its development, follow these steps
 
 ## Feedback
 
-We're thrilled to have you explore Voyawander and hope it helps you plan your dream vacations. If you have any questions, suggestions, or feedback, please don't hesitate to reach out. Your input is valuable in making Voyawander an even better travel planning platform. Happy travels!
+We're thrilled to have you explore Pathify and hope it helps you plan your dream vacations. If you have any questions, suggestions, or feedback, please don't hesitate to reach out. Your input is valuable in making Pathify an even better travel planning platform. Happy travels!
